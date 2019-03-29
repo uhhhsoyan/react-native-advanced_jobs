@@ -12,7 +12,7 @@ import DeckScreen from './screens/DeckScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import SettingsScreen from './screens/SettingsScreen';
  
-const MainNavigator = createBottomTabNavigator({
+const MainNavigator = createStackNavigator({
   welcome: WelcomeScreen,
   auth: AuthScreen,
   main: {
